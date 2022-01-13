@@ -1,0 +1,19 @@
+GitHub
+
+git list -> lista as informações do git do config 
+git config --global unset user.email -> remove os dados da lis
+
+git remote add origin 'linkdorepositorioGItHub'
+git remote -v -> listas de repositorios
+
+git status -> ver pedências
+
+git push origin master -> empurra para o GitHub
+git pull origin master -> puxa do GitHub
+
+git clone 'link http'
+
+
+- Resolvendo conflitos 
+
+codigo com alterações na mesma linha da conflitos

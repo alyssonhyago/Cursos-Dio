@@ -1,0 +1,25 @@
+- comandos iniciais com Git
+
+git init -> inicializa e cria um repositorio, quando estiver com a pasta criada e esta no diretorio dela
+
+git add -> adicionar arquivos -> vai pra staged
+git add. -> todos as mudanças
+git add *
+git commit -m 'mensagem'-> snap shot 
+git status -> dizer se stage, modified e unmodified
+cd workspace -> entra na pasta workspace
+mkdir *nomedoarquivo -> cria um arquivo no diretorio
+ls -a -> mostra arquivos ocultos
+mv *nomedoaquivo ./nomedapasta/ -> move um arquivo para uma pasta
+
+git config --global user.email 'email'
+git config --global user.name 'nome'
+
+Untracked -> arquivo sem conteudo, antes do add
+tracked -> arquivos para apresentação
+stage -> arquivos que estao se preparanado para otro tipo de agrupamento
+modifed -> arquivo modificado, compara os sha1
+Unmodified -> sem modificação
+commit , manda pro unmodified
+
+

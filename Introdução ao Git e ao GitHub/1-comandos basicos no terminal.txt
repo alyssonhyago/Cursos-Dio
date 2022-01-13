@@ -1,0 +1,23 @@
+
+dir -> lista todos os diretorios dentro do domino que vc se encontra user/Alysson.
+
+cd / -> muda para qualquer pasta do sistema Operacional, dps da barra incluir o caminho
+
+cd .. voltar para diretorio anterior
+
+cls -> limpar o terminal
+
+mkdir *nomedapasta -> cria pastas
+
+echo -> redireciona algo para um pasta
+
+echo hello > hello.txt -> cria um arquivo e atribui a palavra hello
+
+del -> deleta somente arquivos
+
+rmdir -> deleta o repositorio criado
+
+rmdir /S /Q -> deleta o repositorio com uso de flags
+
+
+

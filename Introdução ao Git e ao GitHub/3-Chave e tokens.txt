@@ -1,0 +1,6 @@
+-Chaves SSH e Tokens
+
+
+autenticação,diz ao gitHub q sou o autor.
+
+Chave SSH -> forma segura encriptada com a maquina para o GitHub. chave publica e privada.

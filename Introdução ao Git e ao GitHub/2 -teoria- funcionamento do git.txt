@@ -1,0 +1,32 @@
+- SHA1 -> algoritmo de Hash seguro, é um conjunto de funções hash criptografias projetadas pela NSA.A encriptação gera conjunto de characteres identificador de 40 digitos.
+-echo "ola mundo"|openss1 sha1
+-> (stdin) = f9fc85 ... 40 chacarteres
+
+5ffee6324fcce79f499bcb10a7dce298cb1c0d93
+
+objetos fundamentais
+
+- Blobs -> echo "conteudo" | git hash-object --stdin
+	Gera um sha1 de 40 caracteres
+	echo - e 'blob 9\0conteudo' | openssl sha1
+->fica guardado no objeto blob - tamanho \0 o conteudo do arquivo, metados do objeto blob, so guarda o sha1.
+
+- Tree \0 blob sa4d8s texto.txt -> armazena os blob e contem metadados tbm. aponta para um blob que tem um sha1 e guarda o nome do arquivo.é um objeito recursivo. arvore possui tbm um sha1 proprio. 
+ 
+- ver imagem salva na pasta
+
+-Commit -> junta tudo , aponta para a tree, aponta para parente e dps para o autor e uma mensagem , timestamp. indica uma alteração que explica os arquivos e alterações e recebe um autor tbm.Possui tbm um sha1.
+
+-Sistema distribuido e seguro. 
+
+
+
+
+
+
+
+
+
+
+
+
