@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aling-items</title>
+    <style>
+        .container{
+            max-width: 350px;
+            border: 1px solid black;
+            display: flex;
+        }
+
+        .item{
+            background-color: orange;
+            margin: 5px;
+            color: white;
+            text-align: center;
+            flex: 1;
+        }
+        
+        .center{
+            align-items: center;
+        }
+        .column{
+            flex-direction: column;
+        }
+
+        .strectch{
+            align-items: stretch;
+        }
+        .start{
+            align-items: flex-start;
+        }
+
+        .end{
+            align-items: flex-end;
+        }
+        .central{
+            justify-content: center;
+            height: 400px;
+        }
+        .central .item{
+            flex: 0;
+            padding:20px ;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Center</h1>
+    <div class="container  center ">
+        <div class="item">1</div>
+        <div class="item">Lorem ipsum dolor sit</div>
+        <div class="item">3</div>
+    </div>
+
+    <h1>Strectch</h1>
+    <div class="container  center strectch">
+        <div class="item">1</div>
+        <div class="item">Lorem ipsum dolor sit</div>
+        <div class="item">3</div>
+    </div>
+
+    <h1>Flex-start</h1>
+    <div class="container  center start">
+        <div class="item">1</div>
+        <div class="item">Lorem ipsum dolor sit</div>
+        <div class="item">3</div>
+    </div>
+
+    <h1>Flex-end</h1>
+    <div class="container  center end">
+        <div class="item">1</div>
+        <div class="item">Lorem ipsum dolor sit</div>
+        <div class="item">3</div>
+    </div>
+
+    <h1>Flex-start</h1>
+    <div class="container  center central">
+        
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore suscipit nobis nostrum ea a. </div>
+        
+    </div>
+</body>
+</html>
