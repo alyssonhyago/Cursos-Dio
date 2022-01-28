@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aling content</title>
+    <style>
+        .container{
+            height: 400px;
+            max-height: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+
+        .item{
+            background-color: chartreuse;
+            padding: 0 5px;
+            flex: 1;
+            margin: 5px;
+            text-align: center;
+            color: white;
+        }
+        .stretch{
+            align-items: stretch;
+        }
+    </style>
+</head>
+<body>
+    <h1>Strectch</h1>
+    <div class="container stretch">
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum similique </div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum similique</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum similique</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique sint alias reprehenderit porro iure ipsa enim nisi commodi aperiam, voluptatum </div>
+        <div class="item">est necessitatibus, eveniet exercitationem, illo modi? Iste, natus et. Esse!</div>
+        <div class="item">est necessitatibus, eveniet exercitationem, illo modi? Iste, natus et. Esse!</div>
+        
+    </div>
+
+</body>
+</html>
