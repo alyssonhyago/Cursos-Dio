@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+
+    <style>
+        .flex-container{
+            display: flex;
+            border: 1px solid black;
+            max-width: 400px;
+        }
+
+        .item{
+            background-color: chartreuse;
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            margin: 5px;
+            flex: 1;
+        }
+
+        .order{
+            order: 1;
+        }
+
+        .order-2{
+            order: 2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex</h1>
+    <div class="flex-container">
+        <div class="item order">D</div>
+        <div class="item order">C</div>
+        <div class="item order">B</div>
+        <div class="item order">A</div>
+    </div>
+
+    <h1>Order 2</h1>
+    <div class="flex-container">
+        <div class="item order-2">D</div>
+        <div class="item order-2">C</div>
+        <div class="item order-2">B</div>
+        <div class="item order-2">A</div>
+    </div>
+</body>
+</html>
